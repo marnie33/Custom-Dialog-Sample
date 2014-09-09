@@ -1,0 +1,90 @@
+#dialogoverlay {
+    display: none;
+    opacity: .9;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+#dialogbox {
+    display: none;
+    position: fixed;
+    background: white;
+    border-radius: 7px;
+    width: 550px;
+    z-index: 10;
+}
+
+#dialogbox div {
+    background: #6699CC;
+    margin: 8px;
+}
+
+#dialogbox div #dialogboxhead {
+    background: #6666FF;
+    font-size: 22px;
+    font-family: Indie flower, cursive;
+    padding: 10px;
+    color: white;
+}
+
+#dialogbox div #dialogboxbody {
+    background: #99CCCC;
+    padding: 20px;
+    font-family: Coming Soon;
+    font-size: 20px;
+    color: #ffffcc;
+}
+
+#dialogbox div #dialogboxfoot {
+    background: #6666FF;
+    padding: 10px;
+    text-align: right;
+}
+.header {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #003300;
+    border-top: 5px solid #003300;
+    background-color: antiquewhite;
+    padding: 25px;
+    color: #003300;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.footer {
+    border-top: 5px solid #003300;
+    border-bottom: 5px solid #003300;
+    padding: 22px;
+    color: #003300;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#jumbo {
+    background-color: transparent;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #006633, #339966, #99FF99, #FFFFCC, #99FF99, #339966, #006633);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mybuttons {
+    border: 3px solid #003300;
+    background-color: antiquewhite;
+    color: #003300;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 13px 3px #CCCC99;
+}
